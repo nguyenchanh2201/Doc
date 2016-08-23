@@ -11,3 +11,13 @@ Command : Example file : README.md
 
 3/ to pull data from repo github ( always update data from repo before push data to that )
 	git pull https://github.com/nguyenchanh2201/Doc.git
+
+
+4/ Audio file format (sampling rate, number of channels) can be verified using below command :
+			sox –i /path/to/audio/file
+			
+5/  You can resample audio with sox or with ffmpeg : 
+			sox file.wav -r 16000 file-16000.wav
+			ffmpeg file.mp3 -ar 16000 file-16000.wav
+			
+
