@@ -1,3 +1,9 @@
+
+Generate the SSH key with
+	cd ./.ssh
+	ssh-keygen -t rsa -b 4096 -C "nguyenchanh2201@gmail.com" 
+Copy the content of your public SSH key, it is the file id_rsa.pub by default
+
 1/ to clone 1 new repo from github.com 
 Command : 
 	git clone https://github.com/nguyenchanh2201/Doc.git
